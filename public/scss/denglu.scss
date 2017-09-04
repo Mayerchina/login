@@ -1,0 +1,173 @@
+@charset "utf-8";
+.margin{width:900px;margin:0 auto;}
+body{background: #f2f2f2;}
+header{
+    height: 125px;
+    padding-top: 10px;
+    b{
+        display: inline-block;
+        margin:8px 20px;
+        height: 45px;
+        width: 120px;
+        border-left: 1px solid #e3e3e3;
+        font:24px/45px "";
+        text-align: center;
+    }
+}
+#main{
+    background: #fff;
+    height: 400px;
+    width: 890px;
+    border:5px solid #e8e8e8;
+    #l{
+        float:left;
+        width:460px;
+    }
+    #r{
+        position: relative;
+        float: left;
+        margin-left: 55px;
+        width: 321px;
+        height: 400px;
+        & .rt{
+            height: 54px;          
+            li{ 
+                margin: 18px 0;
+                float: left;
+                width:160px;
+                height:18px;
+                font: 18px/18px "";
+                text-align: center;
+                color: #333;
+                &#li1{
+                    border-right: 1px solid #ccc;
+                }
+                &.active{
+                    color: #e54b54;
+                    font-weight: 700;
+                }
+            }
+            
+        } 
+        
+        & .rm{
+            .m1{
+                width:321px;
+                border-top: 1px solid #fbfbfb;
+                display:block;
+                .er{
+                    width:172px;
+                    height: 186px;
+                    margin: 20px auto;
+                    span{
+                        font:12px/45px "";
+                        color: #aaa;
+                        a{margin-right: 25px;color: #e54b54;}
+                    }               
+                }
+                .erb{
+                    padding-left: 45px;
+                }
+            }
+            .m2{
+                display: none;
+                width:321px;
+                height:263px;
+                & div{
+                    margin-bottom: 10px;
+                    &.d1{
+                        background: #fef4e5;
+                        height: 21px;
+                        border: 1px solid #f6c090;
+                        font: 12px/21px "";
+                        color: #666;
+                        overflow: hidden;
+                    }
+                    &.d2,&.d3{
+                        height: 38px;
+                        border: 1px solid #b8c1c8;                  
+                        overflow: hidden;
+                        input{
+                            border:none;   
+                            width: 275px;                 
+                        }
+                    }
+                    &.d4{
+                        height:26px;
+                        color: #98999a;
+                        font:12px/26px "";
+                        input{
+                            margin-right: 10px;
+                            position: relative;
+                            top:3px;
+                        }
+                        a{
+                            float: right;
+                            color: #98999a;
+                        }
+                    }
+                    &.d5 input{
+                        height: 43px;
+                        width: 100%;
+                        border:none;
+                        color: #fff;                        
+                        font:18px/43px "";
+                        background: #f6342f;
+                    }
+                }               
+            }
+        }
+        
+        & .rb{
+            width: 405px;
+            height: 50px;
+            border-top: 1px solid #f4f4f4;
+            position: absolute;
+            bottom: 0;
+            right: -54px;
+            background: #fcfcfc;
+            & ul{
+                margin-left: 60px;
+                & li{
+                    float: left;
+                    font:12px/50px "";
+                    & a{
+                        color: #333;
+                        
+                        & span{
+                            margin-left:5px;
+                            &:hover{
+                            color:#b61d1d ;
+                            text-decoration: underline;
+                            }
+                        }
+                    }
+                    & span{margin: 0 10px 0 0;}
+                    & .last{
+                            color:#b61d1d ;
+                            &:hover{text-decoration: underline; }
+                        }
+                }
+            } 
+        }
+    }
+    
+}
+
+footer{
+    height: 98px;
+    font: 12px/98px "";
+    text-align: center;
+    color: #545454;
+}
+
+
+
+
+
+
+
+
+
+
+

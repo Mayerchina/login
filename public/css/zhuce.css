@@ -1,0 +1,169 @@
+.margin {
+  width: 1200px;
+  margin: 0 auto; }
+
+body {
+  background: #eef3fa; }
+
+#top {
+  border-bottom: 1px solid #eee;
+  height: 30px;
+  background: #f7f7f7; }
+  #top .margin {
+    height: 30px;
+    padding-top: 7px; }
+    #top .margin a {
+      font: 12px/14px ""; }
+      #top .margin a:hover {
+        color: #e4393c;
+        text-decoration: underline; }
+    #top .margin .t-l {
+      height: 14px;
+      float: left; }
+      #top .margin .t-l i {
+        display: inline-block;
+        background: url(../images/zhuce/t1.png) no-repeat;
+        height: 13px;
+        width: 13px;
+        transition: .2s;
+        position: relative;
+        top: 2px; }
+        #top .margin .t-l i:hover {
+          transform: rotate(720deg); }
+    #top .margin ul {
+      height: 14px;
+      float: right;
+      margin-right: 14px; }
+
+header {
+  height: 80px;
+  background: #eef3fa; }
+  header img {
+    margin-top: 10px; }
+  header span {
+    font: 700 28px/46px "";
+    background: #eee;
+    height: 46px;
+    width: 150px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    top: 18px;
+    left: 20px; }
+
+nav {
+  background: #eee;
+  height: 32px; }
+  nav span {
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    font: 12px/22px ""; }
+    nav span a {
+      color: #005aa0; }
+      nav span a:hover {
+        text-decoration: underline; }
+
+#main {
+  height: 524px;
+  width: 988px;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding-top: 68px; }
+  #main li {
+    height: 38px;
+    margin-bottom: 32px; }
+    #main li span {
+      font: 12px/36px "";
+      color: #999;
+      text-align: right;
+      float: left;
+      display: inline-block;
+      width: 200px;
+      height: 36px;
+      padding-right: 10px; }
+      #main li span b {
+        color: #e3393c; }
+    #main li #huoqu {
+      margin-left: 10px;
+      width: 108px;
+      height: 36px;
+      font: 12px/36px ""; }
+      #main li #huoqu:hover {
+        color: red; }
+    #main li i {
+      width: 102px;
+      height: 36px;
+      display: inline-block;
+      margin: 0 5px;
+      background: #ebfddf;
+      color: #157804;
+      font: 24px/36px "inherit";
+      text-align: center; }
+    #main li div {
+      position: relative;
+      float: left;
+      display: inline-block;
+      height: 36px;
+      width: 260px;
+      border: 1px solid #ccc; }
+      #main li div.duan {
+        width: 130px; }
+      #main li div img {
+        display: inline-block;
+        float: right;
+        margin: 7px; }
+      #main li div input {
+        border: none;
+        padding: 10px 5px;
+        height: 16px;
+        width: 218px; }
+        #main li div input.duan1 {
+          width: 50px; }
+      #main li div p {
+        position: absolute;
+        left: 265px;
+        width: 260px;
+        height: 36px;
+        padding: 0 5px;
+        top: -1px;
+        font-size: 12px; }
+        #main li div p.zc {
+          border: 1px solid #ccc;
+          background: #f4f4f4;
+          display: none; }
+        #main li div p.cw {
+          border: 1px solid #ffbdbe;
+          background: #ffebeb;
+          color: #e4393c;
+          display: none; }
+      #main li div.xieyi {
+        color: #545454;
+        border: 0;
+        font: 12px/36px ""; }
+        #main li div.xieyi input {
+          width: 13px;
+          height: 13px;
+          margin: 5px; }
+        #main li div.xieyi a {
+          color: #e03234; }
+      #main li div.buttom1 {
+        border: 0; }
+        #main li div.buttom1 input {
+          color: #fff;
+          height: 100%;
+          width: 100%;
+          background: #e03234;
+          font: 16px/16px "";
+          cursor: pointer; }
+          #main li div.buttom1 input:hover {
+            background: #ee4e50; }
+
+footer {
+  height: 18px;
+  font: 12px/18px "";
+  padding: 10px 0 40px;
+  text-align: center;
+  color: #545454; }
+
+/*# sourceMappingURL=zhuce.css.map */

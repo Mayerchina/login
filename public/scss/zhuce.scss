@@ -1,0 +1,181 @@
+@charset "utf-8";
+.margin{width:1200px;margin:0 auto;}
+body{background: #eef3fa;}
+#top{
+    border-bottom: 1px solid #eee;
+    height: 30px;
+    background: #f7f7f7;
+    .margin{
+        height: 30px;
+        padding-top: 7px;
+        a{
+            font: 12px/14px "";
+            &:hover{color:#e4393c;text-decoration: underline ;}
+        }
+        .t-l{
+            height: 14px;
+            float:left;
+            i{
+                display:inline-block;
+                background:url(../images/zhuce/t1.png) no-repeat;
+                height: 13px;
+                width: 13px; 
+                transition:.2s;
+                &:hover{transform: rotate(720deg);}
+                position:relative;
+                top:2px;
+            }
+        }
+        ul{
+            height: 14px;
+            float:right;
+            margin-right: 14px;
+        }
+    }
+}
+header{
+    height: 80px;
+    background: #eef3fa;
+    img{
+        margin-top: 10px;
+    };
+    span{
+        font:700 28px/46px "";
+        background:#eee;
+        height: 46px;
+        width: 150px;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        top:18px;
+        left: 20px;
+    }
+}
+nav{
+    background: #eee;
+    height: 32px;
+    span{
+        float: right;
+        margin-top:10px;
+        margin-right: 20px;
+        font:12px/22px "";
+        a{color: #005aa0;
+          &:hover{text-decoration: underline ;}  
+        }
+    }
+}
+#main{
+    height:524px;
+    width:988px;
+    background: #fff;
+    border:1px solid #ddd;
+    padding-top:68px;
+    li{
+        height: 38px;
+        margin-bottom: 32px;
+        span{
+            font:12px/36px "";
+            color: #999;
+            text-align: right;
+            float: left;
+            display: inline-block;
+            width: 200px;
+            height: 36px;
+            padding-right: 10px;
+            b{
+                color: #e3393c;
+            }
+        }
+        #huoqu{
+            margin-left: 10px;
+            width:108px;
+            height:36px;
+            font:12px/36px "";
+            &:hover{color: red;}
+        }
+        i{
+            width: 102px;
+            height: 36px;
+            display: inline-block;
+            margin:0 5px;
+            background: #ebfddf;
+            color: #157804;
+            font:24px/36px "inherit";
+            text-align: center;
+        }
+        div{
+            position: relative;
+            float:left;
+            display: inline-block;
+            height: 36px;
+            width: 260px;
+            border:1px solid #ccc;
+            &.duan{width: 130px;}
+            img{
+                display: inline-block;
+                float:right;
+                margin: 7px;   
+            }
+            input{
+                border:none;
+                padding:10px 5px;
+                height:16px;
+                width: 218px;
+                &.duan1{width: 50px;}               
+            }
+            p{
+                position: absolute;
+                left:265px;
+                width:260px;
+                height:36px;
+                padding: 0 5px;
+                top:-1px;
+                font-size: 12px;;
+                &.zc{
+                    border:1px solid #ccc;
+                    background:#f4f4f4;
+                    display: none;
+                }
+                &.cw{
+                    border:1px solid #ffbdbe;
+                    background:#ffebeb;
+                    color: #e4393c;
+                    display: none;
+                }
+            }
+            &.xieyi{
+                color: #545454;
+                border:0;
+                font: 12px/36px "";
+                input{
+                    width: 13px;
+                    height: 13px;
+                    margin: 5px;                    
+                }
+                a{color: #e03234;}
+            }
+            &.buttom1{
+                border:0;
+                input{
+                    color:#fff;
+                    height:100%;
+                    width:100%;
+                    background: #e03234;
+                    font: 16px/16px "";
+                    cursor: pointer; 
+                    &:hover{
+                        background: #ee4e50;
+                    }               
+                }               
+            }
+                
+        }
+    }
+}
+footer{
+    height: 18px;
+    font: 12px/18px "";
+    padding:10px 0 40px;
+    text-align: center;
+    color: #545454;
+}

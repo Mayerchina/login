@@ -1,0 +1,109 @@
+@charset "utf-8";
+.margin{width:990px;margin:0 auto;}
+#main{
+    #mtt{
+        height:46px;
+        border-bottom: 1px solid;
+        margin-bottom: 20px;
+            font: 12px/46px "";
+        #mtop{       
+            float: left;
+        }
+        #mtopr{
+            float: right;
+            span{
+                color: red;
+            }
+            margin-right:30px;
+        }
+    }
+    #xb{
+        .mleft{                     
+            float: left;
+            width: 180px;
+            margin-right:20px;
+            div{
+                h3{
+                    height: 20px;
+                    font: 14px/30px "";
+                }
+                border: 1px solid #000;
+                text-align: center;
+                 li{
+                    width:158px;
+                    border: 1px solid #000;
+                    margin: 10px;
+                    img{
+                    width:158px;
+                    }
+                }
+            }
+            dl{
+                margin-bottom: 15px;
+                font:700 14px/18px "";
+                dt{
+                    font:400 12px/18px "";
+                    margin:5px;
+                }
+                dd{
+                    text-indent:30px ;
+                    font: 12px/18px "";
+                }
+            }
+           
+        }
+        .mright{
+            float: left;
+            width: 990px;           
+           #xq{
+                li{
+                    width: 218px;
+                    border: 1px solid;
+                    float: left;
+                    padding: 7px;
+                    margin:15px 11px 15px 0;
+                    text-align: center;
+              
+                    img{
+                        width:218px;
+                    };
+                    b{
+                        color:green;
+                    }
+                    i{
+                        color:red;
+                        cursor: pointer;
+                        line-height: 30px;
+                        padding: 5px;
+                        border: 1px solid #000;
+                    }
+                }
+            }
+            #t11{
+                li{
+                    float: left;
+                    font:12px/19px "";
+                    width:235px;
+                    margin:10px 10px 10px 0;
+                }
+            }
+            #ye{               
+                a{
+                    border:1px solid #ccc;
+                    color: #666;
+                    padding: 4px 10px;
+                    font: 10px/80px "";
+                    border-radius: 5px;
+                    &.hover{
+                        color: #f60;
+                        border: none;
+                    }
+                }
+                input{
+                    width:30px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

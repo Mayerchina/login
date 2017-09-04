@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/denglu.css"/>
+	</head>
+	<body>
+		<header class="margin">
+			<a href="index.html"><img src="images/denglu/logo.png"/></a>
+			<b>欢迎登录</b>
+		</header>
+		
+		<section id="main" class="margin">
+			<div id="l"><img src="images/denglu/t1.png"/></div>
+			<div id="r">
+				<div class="rt">
+					<ul>
+						<li id="li1" class="active">扫码登录</li>
+						<li class="">账户登录</li>
+					</ul>
+				</div>
+				<div class="rm">
+					<div class="m1 m3">
+						<div class="er">
+							<p><img src="images/denglu/t3.png"/></p>
+							<span>打开<a target="_blank" href="#">中酒网APP</a></span><span>扫描二维码</span>
+						</div>
+						<img src="images/denglu/t2.png" class="erb"/>
+					</div>
+					<div class="m2 m3">
+						<div class="d1"><img src="images/denglu/t7.png"/>公共场所不建议自动登录，以防账号丢失</div>
+						<div class="d2">
+							<img src="images/denglu/t8.png"/>
+							<input type="text" placeholder="用户名" id="username"/>
+						</div>
+						<div class="d3">
+							<img src="images/denglu/t9.png"/>
+							<input type="password" placeholder="密码" id="password"/>
+						</div>
+						<div class="d4"><input type="checkbox" />自动登陆<a href="http://www.zhongjiu.cn/findpassword">忘记密码</a></div>
+						<div class="d5"><input type="button" value="登录" id="login"/></div>
+					</div>
+				</div>
+				<div class="rb">
+					<ul>
+						<li>
+							<a href="https://graph.qq.com/oauth/show?which=Login&display=pc&response_type=code&client_id=1106027103&redirect_uri=http%3a%2f%2fwww.zhongjiu.cn%2fLogin%2fOauthCallBack%3foauthId%3dHimall.Plugin.OAuth.QQ&scope=get_user_info&state=Himall.Plugin.OAuth.QQ">
+								<img src="images/denglu/t4.png"/>
+								<span>QQ</span>
+							</a>
+							<span class="line">|</span>
+						</li>
+						<li>
+							<a href="https://api.weibo.com/oauth2/authorize?client_id=93470565&response_type=code&redirect_uri=http%3a%2f%2fwww.zhongjiu.cn%2fLogin%2fOauthCallBack%3foauthId%3dHimall.Plugin.OAuth.Weibo">
+								<img src="images/denglu/t5.png"/>
+								<span>微博</span>
+							</a>
+							<span class="line">|</span>
+						</li>
+						<li>
+							<a href="https://open.weixin.qq.com/connect/qrconnect?appid=wx45a6feedd1adfcfe&redirect_uri=http%3a%2f%2fwww.zhongjiu.cn%2fLogin%2fOauthCallBack%3foauthId%3dHimall.Plugin.OAuth.WeiXin&response_type=code&scope=snsapi_login&state=hishop#wechat_redirect">
+								<img src="images/denglu/t6.png"/>
+								<span>微信</span>
+							</a>
+							<span class="line">|</span>
+						</li>
+						<li><a target="_blank" href="zhuce.html" class="last">立即注册</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		
+		<footer class="margin">
+			Copyright © 2017 &nbsp;&nbsp;中酒网&nbsp;版权所有
+		</footer>
+		
+		
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/denglu.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
